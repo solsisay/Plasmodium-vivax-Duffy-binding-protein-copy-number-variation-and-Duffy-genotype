@@ -15,7 +15,7 @@ library(gridExtra)
 library(grid)
 
 #### bar chart for Fig 2
-stack=read_excel("CNV and duffy.xlsx")
+stack=read_excel("CNV_and_duffy.csv")
 
 # Convert PvDBP_copy to a factor with the desired order
 stack$PvDBP_copy <- factor(stack$PvDBP_copy, levels = c("Single", "2 to 3",">3"))
