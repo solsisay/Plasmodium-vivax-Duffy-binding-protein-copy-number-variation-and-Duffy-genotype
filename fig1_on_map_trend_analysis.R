@@ -19,7 +19,7 @@ library(scales)
 
 # Assuming you have your time series data in a CSV file
 
-trend=read.csv("5-Years Malar Trend.csv")
+trend=read.csv("5_Years_Malar_Trend.csv")
 
 
 ## filtered the data( 2018:2022) 
