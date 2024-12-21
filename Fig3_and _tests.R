@@ -19,7 +19,7 @@ library(gridExtra)
 library(grid)
 
 ### import the data
-data=read.csv("PvDBP-DARC Dataset - 18 March 2024.csv")
+data=read.csv("PvDBP_DARC.csv")
 names(data)
 
 data$log_parasite_density <- log10(data$Pv_copies + 0.01)
