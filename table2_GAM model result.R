@@ -5,7 +5,7 @@ library(readxl)
 library(mgcv)
 library(glmmTMB)
 ## data import
-data=read.csv("PvDBP-DARC Dataset - 18 March 2024.csv")
+data=read.csv("PvDBP_DARC.csv")
 
 ### transform
 data$log_parasite_density <- log10(data$Pv_copies + 0.1)
